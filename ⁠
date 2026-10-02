@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شقق غيم | Ghim Apartments</title>
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --accent-color: #c59b27;
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+        header p {
+            color: #cbd5e1;
+            font-size: 1.1rem;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            width: 100%;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .card h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .feature-item {
+            background: #f1f5f9;
+            padding: 1rem;
+            border-radius: 8px;
+            border-right: 4px solid var(--accent-color);
+        }
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>شقق غيم مفروشة</h1>
+        <p>تجربة إقامة متميزة وراحة لا مثيل لها</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>مرحباً بكم في شقق غيم</h2>
+            <p>نقدم لكم أفضل الوحدات السكنية المفروشة بأسلوب عصري يضمن لكم الراحة والخصوصية.</p>
+            
+            <div class="features">
+                <div class="feature-item">أثاث عصري ومريح</div>
+                <div class="feature-item">خدمة إنترنت سريعة</div>
+                <div class="feature-item">موقع متميز وهادئ</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 - شقق غيم (Ghim-Website)</p>
+    </footer>
+
+</body>
+</html>
